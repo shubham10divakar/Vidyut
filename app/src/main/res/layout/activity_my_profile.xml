@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vidyut.MyProfile">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginBottom="30dp"
+                android:src="@drawable/usericon" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Name"
+                    android:inputType="textCapWords"
+                    android:maxLines="1"
+                    android:textColorHint="@color/colorPrimaryDark" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Address"
+                    android:inputType="textCapWords"
+                    android:maxLines="1" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Number"
+                    android:inputType="text"
+                    android:maxLines="1" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/Gender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Gender"
+                    android:inputType="text"
+                    android:maxLines="1" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/bld"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Blood Group"
+                    android:inputType="text"
+                    android:maxLines="1" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/dob"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Date Of Birth"
+                    android:inputType="text"
+                    android:maxLines="1" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/btn_save"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/button_bg"
+                android:text="Click here to Update/Edit "
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+<!--            <ProgressBar-->
+<!--                android:id="@+id/progressBar"-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:theme="@style/blood"-->
+<!--                android:layout_gravity="center|bottom"-->
+<!--                android:layout_marginBottom="20dp"-->
+<!--                android:visibility="gone"-->
+<!--                />-->
+        </LinearLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

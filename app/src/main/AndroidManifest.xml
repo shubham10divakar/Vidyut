@@ -27,7 +27,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".WelcomeActivity"></activity>
+        <activity android:name=".Vidyut.MyProfile"></activity>
+        <activity android:name=".WelcomeActivity" />
         <activity android:name=".Vidyut.VMain2Activity" />
 
         <service android:name=".MyFirebaseInstanceIDService">
@@ -85,16 +86,12 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-
-
-<!--        <activity android:name=".WelcomeActivity">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
+        </activity> <!-- <activity android:name=".WelcomeActivity"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
         <activity
             android:name=".Navigation"
             android:label="@string/title_activity_navigation"
@@ -117,7 +114,9 @@
         <activity android:name=".mylocation.MainGeoActivity" />
         <activity android:name=".notification.PushNotificationActivity" />
         <activity android:name=".SpyCamera" />
-        <activity android:name=".AboutDeveloper" />
+        <activity
+            android:name=".AboutDeveloper"
+            android:theme="@style/AppTheme1234" />
 
         <service
             android:name=".pushnotification.MyFirebaseInstanceIdService"

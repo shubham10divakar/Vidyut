@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vidyut.VMain2Activity">
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center">
+
+        <GridView
+            android:id="@+id/simpleGridView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="2"
+            android:gravity="center"
+            android:columnWidth="100dp"
+            android:stretchMode="columnWidth"
+            android:horizontalSpacing="10dp"
+            android:verticalSpacing="10dp"
+            android:adjustViewBounds="true"
+            android:minHeight="100dp"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

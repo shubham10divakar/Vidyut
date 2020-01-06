@@ -4,7 +4,7 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="white">#FFFFCC</color>
-
+    <color name="colorAccent1">#ff6861</color>
     <!-- Screens background color-->
     <color name="bg_screen1">#f64c73</color>
     <color name="bg_screen2">#20d2bb</color>

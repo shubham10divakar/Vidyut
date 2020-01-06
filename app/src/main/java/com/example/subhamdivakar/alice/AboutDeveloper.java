@@ -23,14 +23,14 @@ public class AboutDeveloper extends AppCompatActivity {
         EditText txt12,q,w,e,r,t;
         txt12=findViewById(R.id.reg12);
         txt12.setEnabled(false);
-        q=findViewById(R.id.reg21);
-        q.setEnabled(false);
-        w=findViewById(R.id.reg32);
-        w.setEnabled(false);
-//        e=findViewById(R.id.reg42);
-//        e.setEnabled(false);
-//        r=findViewById(R.id.reg52);
-//        r.setEnabled(false);
+//        q=findViewById(R.id.reg21);
+//        q.setEnabled(false);
+//        w=findViewById(R.id.reg32);
+//        w.setEnabled(false);
+        e=findViewById(R.id.reg42);
+        e.setEnabled(false);
+        r=findViewById(R.id.reg52);
+        r.setEnabled(false);
         initCollapsingToolbar();
         setSupportActionBar(toolbar);
         if (getSupportActionBar() != null) {
