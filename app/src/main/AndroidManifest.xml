@@ -27,6 +27,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".WelcomeActivity"></activity>
+        <activity android:name=".Vidyut.VMain2Activity" />
+
         <service android:name=".MyFirebaseInstanceIDService">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
@@ -48,13 +51,9 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyBwYVhzY1hnNQPs--Dv8vAiz8SwYUPMAwY" />
 
-        <uses-library android:name="com.google.android.maps" />
-
-        <!-- <activity android:name=".MainActivity"> -->
+        <uses-library android:name="com.google.android.maps" /> <!-- <activity android:name=".MainActivity"> -->
         <!-- <intent-filter> -->
         <!-- <action android:name="android.intent.action.MAIN" /> -->
-
-
         <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
         <!-- </intent-filter> -->
         <!-- </activity> -->
@@ -80,13 +79,22 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-        <activity android:name=".WelcomeActivity">
+        <activity android:name=".Vidyut.VMainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
+<!--        <activity android:name=".WelcomeActivity">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+<!--        </activity>-->
         <activity
             android:name=".Navigation"
             android:label="@string/title_activity_navigation"
@@ -116,7 +124,7 @@
             android:enabled="true"
             android:exported="true">
             <intent-filter>
-                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
     </application>
